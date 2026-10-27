@@ -420,6 +420,10 @@ When the port is free, it can be reserved persistently:
 netsh int ipv4 add excludedportrange protocol=tcp startport=8007 numberofports=1 store=persistent
 ```
 
+## Community
+
+Thanks to [LINUX DO](https://linux.do/) for providing a community for open-source discussions and feedback.
+
 ## Notes
 
 Gemini Web is an internal protocol that can change with the website. Treat the live model catalog returned after startup as the source of truth. Issues and PRs are welcome. Development guidance is in [docs/development.md](docs/development.md); authentication, payload, and streaming details are in [docs/protocol.md](docs/protocol.md); logs and the request ledger are described in [docs/logging.md](docs/logging.md).

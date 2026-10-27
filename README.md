@@ -420,6 +420,10 @@ net start winnat
 netsh int ipv4 add excludedportrange protocol=tcp startport=8007 numberofports=1 store=persistent
 ```
 
+## 社区
+
+感谢 [LINUX DO](https://linux.do/) 提供开源交流社区，欢迎佬友交流使用体验与改进建议。
+
 ## 注意
 
 Gemini Web 内部协议可能随官网更新，模型 ID 以服务启动后返回的动态目录为准。欢迎提 Issue 和 PR。
