@@ -1,0 +1,39 @@
+# Binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+/gemini-web2api
+/dist/
+/bin/
+*.syso
+
+# Logs
+*.log
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Go
+go.work
+
+# env
+.env
+
+# Authentication states
+/auth/
+
+# Runtime data
+/data/
+
+# Frontend
+/web/node_modules/
+/internal/webui/dist/
+
+# Reference files
+reference*/
